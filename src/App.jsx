@@ -4,7 +4,7 @@ import LandingPage from "./pages/Landing";
 import ServicesPage from "./pages/Services";
 import AboutPage from "./pages/About";
 import Layout from "./components/Layout";
-import WorkPage from "./pages/work";
+import WorkPage from "./pages/Work";
 import BlogsPage from "./pages/Blogs";
 import PrivacyPolicyPage from "./pages/PrivacyPolicy";
 
