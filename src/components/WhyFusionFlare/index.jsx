@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/Logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Container, Row } from "react-bootstrap";
 const WhyFusionFlare = () => {
