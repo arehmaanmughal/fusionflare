@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "./../assets/images/Logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,36 +49,36 @@ const Navbar = () => {
             isMenuOpen ? "block" : "hidden"
           } lg:flex`}
         >
-          <a href="/" className="block py-2 text-gray-300 hover:text-white">
+          <Link to="/" className="block py-2 text-gray-300 hover:text-white">
             Home
-          </a>
-          <a
-            href="/about"
+          </Link>
+          <Link
+            to="/about"
             className="block py-2 text-gray-300 hover:text-white"
           >
             About
-          </a>
-          <a
-            href="/services"
+          </Link>
+          <Link
+            to="/services"
             className="block py-2 text-gray-300 hover:text-white"
           >
             Services
-          </a>
-          <a href="/work" className="block py-2 text-gray-300 hover:text-white">
+          </Link>
+          <Link to="/work" className="block py-2 text-gray-300 hover:text-white">
             Our Work
-          </a>
-          <a
-            href="/blogs"
+          </Link>
+          <Link
+            to="/blogs"
             className="block py-2 text-gray-300 hover:text-white"
           >
             Blogs
-          </a>
-          <a
-            href="/privacy"
+          </Link>
+          <Link
+            to="/privacy"
             className="block py-2 text-gray-300 hover:text-white"
           >
             Privacy Policy
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -108,24 +109,24 @@ const Navbar = () => {
 
             {/* Navigation Links */}
             <div className="flex flex-col space-y-4">
-              <a href="/" className="text-gray-300 hover:text-white">
+              <Link to="/" className="text-gray-300 hover:text-white">
                 Home
-              </a>
-              <a href="/about" className="text-gray-300 hover:text-white">
+              </Link>
+              <Link to="/about" className="text-gray-300 hover:text-white">
                 About
-              </a>
-              <a href="services" className="text-gray-300 hover:text-white">
+              </Link>
+              <Link to="services" className="text-gray-300 hover:text-white">
                 Services
-              </a>
-              <a href="/work" className="text-gray-300 hover:text-white">
+              </Link>
+              <Link to="/work" className="text-gray-300 hover:text-white">
                 Our Work
-              </a>
-              <a href="/blogs" className="text-gray-300 hover:text-white">
+              </Link>
+              <Link to="/blogs" className="text-gray-300 hover:text-white">
                 Blogs
-              </a>
-              <a href="/privacy" className="text-gray-300 hover:text-white">
+              </Link>
+              <Link to="/privacy" className="text-gray-300 hover:text-white">
                 Privacy Policy
-              </a>
+              </Link>
             </div>
           </div>
         </div>
