@@ -64,7 +64,10 @@ const Navbar = () => {
           >
             Services
           </Link>
-          <Link to="/work" className="block py-2 text-gray-300 hover:text-white">
+          <Link
+            to="/work"
+            className="block py-2 text-gray-300 hover:text-white"
+          >
             Our Work
           </Link>
           <Link
@@ -109,22 +112,46 @@ const Navbar = () => {
 
             {/* Navigation Links */}
             <div className="flex flex-col space-y-4">
-              <Link to="/" className="text-gray-300 hover:text-white">
+              <Link
+                to="/"
+                className="text-gray-300 hover:text-white"
+                onClick={toggleMenu}
+              >
                 Home
               </Link>
-              <Link to="/about" className="text-gray-300 hover:text-white">
+              <Link
+                to="/about"
+                className="text-gray-300 hover:text-white"
+                onClick={toggleMenu}
+              >
                 About
               </Link>
-              <Link to="services" className="text-gray-300 hover:text-white">
+              <Link
+                to="services"
+                className="text-gray-300 hover:text-white"
+                onClick={toggleMenu}
+              >
                 Services
               </Link>
-              <Link to="/work" className="text-gray-300 hover:text-white">
+              <Link
+                to="/work"
+                className="text-gray-300 hover:text-white"
+                onClick={toggleMenu}
+              >
                 Our Work
               </Link>
-              <Link to="/blogs" className="text-gray-300 hover:text-white">
+              <Link
+                to="/blogs"
+                className="text-gray-300 hover:text-white"
+                onClick={toggleMenu}
+              >
                 Blogs
               </Link>
-              <Link to="/privacy" className="text-gray-300 hover:text-white">
+              <Link
+                to="/privacy"
+                className="text-gray-300 hover:text-white"
+                onClick={toggleMenu}
+              >
                 Privacy Policy
               </Link>
             </div>
