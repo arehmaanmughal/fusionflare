@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import LandingPage from "./pages/Landing";
-import ServicesPage from "./pages/Services";
-import AboutPage from "./pages/About";
+import LandingPage from "./pages/LandingPage";
+import ServicesPage from "./pages/ServicesPage";
+import AboutPage from "./pages/AboutPage";
 import Layout from "./components/Layout";
-import WorkPage from "./pages/Work";
-import BlogsPage from "./pages/Blogs";
-import PrivacyPolicyPage from "./pages/PrivacyPolicy";
+import WorkPage from "./pages/WorkPage";
+import BlogsPage from "./pages/BlogsPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 const App = () => {
   return (
